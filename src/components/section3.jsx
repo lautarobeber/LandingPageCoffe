@@ -53,19 +53,19 @@ function Section3() {
               <Flag width={200} height={200} />
             </div>
             <div className="basis-3/4 flex justify-center items-center rotate-12 ">
-              <h1 className="text-6xl font-bold text-yellow-500 ">
+              <h1 className="text-3xl lg:text-6xl font-bold text-yellow-500 ">
                 OFF<span className="text-red-500">SIDEEE!</span>
               </h1>
             </div>
           </div>
-          <div className="flex justify-center items-center basis-1/3 ">
-            <h1 className="text-5xl font-lato font-bold">
+          <div className="flex my-12 lg:my-0 justify-center items-center basis-1/3 ">
+            <h1 className="text-3xl lg:text-5xl font-lato font-bold">
               Adelantate a la jugada
             </h1>
           </div>
           <div className="flex flex-row basis-1/3">
             <div className="w-1/2">
-              <h1 className="text-5xl font-lato font-bold">
+              <h1 className="text-3xl lg:text-5xl font-lato font-bold">
                 Anda mirando el menú...
               </h1>
             </div>

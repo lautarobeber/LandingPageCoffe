@@ -40,13 +40,13 @@ function App() {
         <section className="flex flex-col lg:flex-row  justify-center items-center  bg-[#F5F5F1] w-full  my-32 lg:mb-12  z-10">
           <Section1 />
         </section>
-        <section className="flex flex-row my-60  w-full  ">
+        <section className="flex flex-col lg:flex-row my-60  w-full  ">
           <Section2 />
         </section>
         <section className="flex flex-col lg:flex-row justify-center my-36 lg:my-60   w-full  ">
           <Section3 />
         </section>
-        <section className="flex  flex-row lg:flex-row justify-center items-center w-full my-12 lg:my-44   lg:pt-0  ">
+        <section className="flex  flex-col md:flex-row lg:flex-row justify-center items-center w-full my-12 lg:my-44   lg:pt-0  ">
           <Section4 />
         </section>
       </main>

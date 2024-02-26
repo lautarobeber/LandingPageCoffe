@@ -3,13 +3,13 @@ import imgCoffe from '../assets/coffe.avif'
 function Section2 () {
     return (
         <>
-         <div className="relative flex  w-1/2  ">
+         <div className="relative flex  w-full lg:w-1/2  ">
             <div className="flex items-center my-auto mx-auto w-2/4 h-5/6 bg-gray-500 relative  border-blue-500 border-gradient-to-r from-gray-500 to-[#F5F5F1] p-1">
               <img src={imgCoffe} className=" h-full w-full "></img>
             </div>
           </div>
-          <div className="flex  w-1/2 z-10 ">
-            <div className=" flex flex-col  w-3/4 bg-transparent h-5/6 left-0 my-auto ">
+          <div className="flex  w-full lg:w-1/2 z-10  ">
+            <div className=" flex flex-col w-full lg:w-3/4 bg-transparent h-5/6  my-12 lg:my-auto">
               <div className="flex items-center justify-center basis-1/3  ">
                 <h1 className="text-5xl font-lato   font-bold font-mono">
                   Despierta tus sentidos
@@ -17,7 +17,7 @@ function Section2 () {
                   En cada sorbo.
                 </h1>
               </div>
-              <div className="flex items-center justify-center basis-1/3 bg-transparent">
+              <div className="flex items-center justify-center basis-1/3 bg-transparent pt-6 lg:pt-0">
                 <p className="mx-10 text-xl font-semibold font-office leading-loose">
                   Nuestra cafetería ofrece una experiencia única con
                   especialidades de café artesanal, deliciosas pastelerías

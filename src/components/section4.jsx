@@ -42,11 +42,11 @@ function Section4() {
       <div ref={myComponentRefe} className={divClassName}>
         <Platos w={400} h={400} />
       </div>
-      <div className="basis-1/3 w-1/3 h-1/2">
+      <div className="basis-1/3 w-full lg:w-1/3 h-1/2">
         <Carousel />
       </div>
       <div className="flex  justify-center items-center basis-1/3 bg-[#F5F5F1] mt-12 lg:mt-0 w-1/3 h-1/2">
-        <div className=" flex justify-center items-center ml-60 lg:ml-0 w-1/2 h-3/4 ">
+        <div className=" flex justify-center items-center lg:ml-0 w-1/2 h-3/4 ">
           <h1 className="text-5xl  font-lato  font-bold font-mono z-10">
             Por las dudas<br></br>
             Te dejamos unas fotos!
