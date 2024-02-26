@@ -5,10 +5,10 @@ function Section2 () {
         <>
          <div className="relative flex  w-1/2  ">
             <div className="flex items-center my-auto mx-auto w-2/4 h-5/6 bg-gray-500 relative  border-blue-500 border-gradient-to-r from-gray-500 to-[#F5F5F1] p-1">
-              <img src={imgCoffe} class=" h-full w-full "></img>
+              <img src={imgCoffe} className=" h-full w-full "></img>
             </div>
           </div>
-          <div className="flex  w-1/2 ">
+          <div className="flex  w-1/2 z-10 ">
             <div className=" flex flex-col  w-3/4 bg-transparent h-5/6 left-0 my-auto ">
               <div className="flex items-center justify-center basis-1/3  ">
                 <h1 className="text-5xl font-lato   font-bold font-mono">
@@ -26,7 +26,7 @@ function Section2 () {
                   todos los amantes del café.
                 </p>
               </div>
-              <div className="flex  flex-row  basis-1/3  bg-transparent">
+              <div className="hidden  xl:flex  flex-row  basis-1/3  bg-transparent">
                 <div className="flex flex-col justify-center items-center basis-1/3  bg-transparent">
                   <div className="flex justify-center items-center basis-1/2 w-full h-full">
                     <h1 className="text-4xl font-semibold">

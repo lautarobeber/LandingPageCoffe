@@ -2,44 +2,52 @@ import NavBar from "./components/navbar";
 
 import "./index.css";
 
-
-
 import Section1 from "./components/section1";
 import Section2 from "./components/section2";
 import Section3 from "./components/section3";
-import Carousel from "./components/swiper";
 
-
+import Section4 from "./components/section4";
+import WhapSvg from "./components/svg/whap";
+import VinesSvg from "./components/svg/vines";
 
 function App() {
   return (
     <div className="overflow-x-hidden  bg-[#F5F5F1] ">
       <NavBar />
+      <div className="fixed lg:absolute  left-0 z-0 bg-[#F5F5F1]">
+        <div className="flex flex-col ">
+        <VinesSvg />
+        </div>
+        <div className="flex flex-col ">
+        <VinesSvg />
+        </div>
+        {/* <div className="flex flex-col lg:hidden ">
+        <VinesSvg />
+        </div> */}
+        
+      </div>
 
-      <main className="w-screen bg-[#F5F5F1] overflow-x-hidden ">
-        <section className="flex flex-row justify-center  bg-[#F5F5F1] w-full h-[48rem] mt-36 mx-auto">
+      <main className="w-screen  overflow-x-hidden bg-[#F5F5F1] overflow-x-hidden z-10 ">
+        <div className="fixed  right-0 bottom-0 z-10">
+          <h1  className="text-center font-semibold">
+            Reservas <br></br>& <br></br>
+            TakeAway
+          </h1>
+          <a target="_blank"  href='https://api.whatsapp.com/send?phone=3455227681'>
+            <WhapSvg />
+          </a>
+        </div>
+        <section className="flex flex-col lg:flex-row  justify-center items-center  bg-[#F5F5F1] w-full  my-32 lg:mb-12  z-10">
           <Section1 />
         </section>
-        <section className="flex flex-row  w-full h-[48rem]">
+        <section className="flex flex-row my-60  w-full  ">
           <Section2 />
         </section>
-        <section className="flex flex-row pt-36 mb-24  w-full h-[48rem] ">
+        <section className="flex flex-col lg:flex-row justify-center my-36 lg:my-60   w-full  ">
           <Section3 />
         </section>
-        <section className="flex flex-row justify-center items-center w-full h-[48rem] bg-red-300  ">
-          <div className="basis-1/3 bg-red-500 w-1/3 h-1/2"></div>
-          <div className="basis-1/3 bg-blue-500 w-1/3 h-1/2"><Carousel/></div>
-          <div className="flex justify-center items-center basis-1/3 bg-white w-1/3 h-1/2">
-            <div className="flex justify-center items-center w-3/4 h-3/4 ">
-
-              <h1 className="text-5xl font-lato  font-bold font-mono">
-              Por las dudas<br></br>
-              Te dejamos unas fotos!
-              </h1>
-
-            </div>
-          </div>
-         
+        <section className="flex  flex-row lg:flex-row justify-center items-center w-full my-12 lg:my-44   lg:pt-0  ">
+          <Section4 />
         </section>
       </main>
     </div>

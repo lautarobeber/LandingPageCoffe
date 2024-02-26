@@ -1,14 +1,14 @@
 import img from "../assets/instagram.png";
 function NavBar() {
   return (
-    <nav className="fixed bg-[#F5F5F1]  w-full h-20 z-10 top-0 ">
+    <nav className="fixed bg-[#F5F5F1]  w-full h-20 z-20 top-0 ">
       <div className="flex justify-between bg-[#F5F5F1]  w-4/5 h-20 mx-auto">
         <div className="bg-[#F5F5F1] w-20 h-20 mr-auto flex-none">
           <svg
             width="90px"
             height="84px"
             viewBox="0 0 1024 1024"
-            class="icon"
+            className="icon"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -56,7 +56,7 @@ function NavBar() {
           </div>
           <div className="basis-1/2 bg-[#F5F5F1]    flex items-center">
             <a
-              href="https://www.instagram.com/tu_usuario/"
+              href="https://www.instagram.com/cafedelriogchu/"
               target="_blank"
               className="bg-gray-200 text-l shadow-2xl text-slate-950  shadow-inner hover:bg-slate-600 hover:text-white  font-bold py-2 px-4 rounded"
             >
