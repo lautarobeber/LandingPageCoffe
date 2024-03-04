@@ -33,7 +33,7 @@ function App() {
             Reservas <br></br>& <br></br>
             TakeAway
           </h1>
-          <a target="_blank"  href='https://api.whatsapp.com/send?phone=3455227681'>
+          <a target="_blank"  href='https://wa.me/543455227681'>
             <WhapSvg />
           </a>
         </div>
